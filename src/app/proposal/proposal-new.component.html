@@ -12,7 +12,7 @@
 								#customer='ngModel'
 								[(ngModel)]="proposal.customer"
 				>
-				<div [hidden]="customer.valid || customer.pristine">
+				<div [hidden]="customer.valid || customer.pristine" class="alert alert-danger">
 					Customer name is required
 				</div>
 			</div>
@@ -38,7 +38,7 @@
 								#tools='ngModel'
 								[(ngModel)]="proposal.tools"
 				>
-				<div [hidden]="tools.valid || tools.pristine">
+				<div [hidden]="tools.valid || tools.pristine" class="alert alert-danger">
 					Tools is required
 				</div>
 			</div>
@@ -52,7 +52,7 @@
 								#estimated_hours='ngModel'
 								[(ngModel)]="proposal.estimated_hours"
 				>
-				<div [hidden]="estimated_hours.valid || estimated_hours.pristine">
+				<div [hidden]="estimated_hours.valid || estimated_hours.pristine" class="alert alert-danger">
 					Estimated hours is required
 				</div>
 			</div>
@@ -66,7 +66,7 @@
 								#hourly_rate='ngModel'
 								[(ngModel)]="proposal.hourly_rate"
 				>
-				<div [hidden]="hourly_rate.valid || hourly_rate.pristine">
+				<div [hidden]="hourly_rate.valid || hourly_rate.pristine" class="alert alert-danger">
 					Hourly Rate is required
 				</div>
 			</div>
@@ -80,7 +80,7 @@
 								#weeks_to_complete='ngModel'
 								[(ngModel)]="proposal.weeks_to_complete"
 				>
-				<div [hidden]="weeks_to_complete.valid || weeks_to_complete.pristine">
+				<div [hidden]="weeks_to_complete.valid || weeks_to_complete.pristine" class="alert alert-danger">
 					Weeks to complete is required
 				</div>
 			</div>
