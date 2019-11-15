@@ -1,8 +1,19 @@
-.app-body {
-	
+.app-body {	
 	display: flex;
 	justify-content: center;
 }
+.nav-styles a:hover {
+	color: #000000;
+}
 .navbar{
-	background-color: #6c757d;
+	background-color: #b3b3b3;
+}
+.nav-link:active {
+  color: #e64758 !important;
+}
+.dropdown-menu li:hover {
+	background-color: #333333;
+}
+.dropdown-menu li:link {
+	color: #e6e6e6;
 }
