@@ -2,3 +2,6 @@
 	color: #d9d9d9;
 	justify-content: center;
 }
+.proposal-link:hover {
+  text-decoration: none;
+}
